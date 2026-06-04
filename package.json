@@ -1,0 +1,14 @@
+{
+  "name": "full-stack-project-api",
+  "private": true,
+  "workspaces": [
+    "CatAPIProject"
+  ],
+  "scripts": {
+    "dev": "cd CatAPIProject && npm run dev",
+    "build": "cd CatAPIProject && npm run build",
+    "lint": "cd CatAPIProject && npm run lint",
+    "preview": "cd CatAPIProject && npm run preview",
+    "bootstrap": "cd CatAPIProject && npm install"
+  }
+}
