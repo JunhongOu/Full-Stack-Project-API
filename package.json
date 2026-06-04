@@ -1,14 +1,27 @@
 {
-  "name": "full-stack-project-api",
+  "name": "catapiproject",
   "private": true,
-  "workspaces": [
-    "CatAPIProject"
-  ],
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "cd CatAPIProject && npm run dev",
-    "build": "cd CatAPIProject && npm run build",
-    "lint": "cd CatAPIProject && npm run lint",
-    "preview": "cd CatAPIProject && npm run preview",
-    "bootstrap": "cd CatAPIProject && npm install"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "vite": "^8.0.10"
   }
 }
